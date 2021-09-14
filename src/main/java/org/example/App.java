@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 1 Solution
+ *  Copyright 2021 Alexander Williams
+ */
+
 package org.example;
 import java.util.Scanner;
 
@@ -8,7 +13,7 @@ public class App
         Scanner scan = new Scanner(System.in);
 
         System.out.print("How many euros are you exchanging? ");
-        int euros = scan.nextInt();;
+        int euros = scan.nextInt();
 
         System.out.print("What is the exchange rate? ");
         double rate = scan.nextDouble();
